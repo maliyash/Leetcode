@@ -1,3 +1,27 @@
+/*
+Danik urgently needs rock and lever! Obviously, the easiest way to get these things is to ask Hermit Lizard for them.
+
+Hermit Lizard agreed to give Danik the lever. But to get a stone, Danik needs to solve the following task.
+
+You are given a positive integer 𝑛, and an array 𝑎 of positive integers. The task is to calculate the number of such pairs (𝑖,𝑗) that 𝑖<𝑗 and 𝑎𝑖 & 𝑎𝑗≥𝑎𝑖⊕𝑎𝑗, where & denotes the bitwise AND operation, and ⊕ denotes the bitwise XOR operation.
+
+Danik has solved this task. But can you solve it?
+
+Input
+Each test contains multiple test cases.
+
+The first line contains one positive integer 𝑡 (1≤𝑡≤10) denoting the number of test cases. Description of the test cases follows.
+
+The first line of each test case contains one positive integer 𝑛 (1≤𝑛≤105) — length of the array.
+
+The second line contains 𝑛 positive integers 𝑎𝑖 (1≤𝑎𝑖≤109) — elements of the array.
+
+It is guaranteed that the sum of 𝑛 over all test cases does not exceed 105.
+
+Output
+For every test case print one non-negative integer — the answer to the problem.
+*/
+
 class Solution{
 
     public int findPairs(int [] nums){
